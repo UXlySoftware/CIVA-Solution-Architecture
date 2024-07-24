@@ -21,7 +21,7 @@ erDiagram
         string name
         string communityType
         string address
-        string gisShape
+        ShapeId gisShape
         GoalId[] goals
         date createdAt
         data updatedAt
@@ -44,6 +44,7 @@ erDiagram
         string status
         string[] notification
     }
+
 
     Community 1--0+ Member: member
 
@@ -69,4 +70,47 @@ erDiagram
     Community 1--zero or one User: "one president"
     Community 1--zero or one User: "one treasurer"
     Community 1--0+ User: "many volunteer"
+```
+
+```mermaid
+---
+title: Community and Community Goals
+---
+erDiagram
+    Goal {
+        ObjectId _id
+        string name
+        string goalId
+        URL img
+        UserId updatedBy
+        date createdAt
+        data updatedAt
+        int ___v
+    }
+
+    Community 0+--0+ Goal: has
+
+```
+
+```mermaid
+---
+title: Community and Community Shapes
+---
+erDiagram
+    Shape {
+        ObjectId _id
+        bool Locked_Community
+        string ShapeId
+        Location location
+        bool published
+    }
+
+    Location {
+        unknown properties
+        string type
+        LatLng[] coordinates
+    }
+
+    Community 0+--0+ Shape: has
+
 ```
