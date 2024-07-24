@@ -6,6 +6,16 @@
 
 ## New features
 
+### User
+
+1. User Feed:
+   - Grants from Recommendation engine
+
+### Community
+
+1. Video conference
+2.
+
 ### Analytics
 
 1.

@@ -13,11 +13,12 @@ This road map is designed based on the following team assumptions from day 1
 ```mermaid
 timeline
     title CIVA Productization Plan
+    August 2024: Data Model Fix
+               : Convert all the features into user stories
     August - October, 2024: MVP development
     November, 2024: MVP in production
-    November - December, 2024: MVP post production maturity
+    December, 2024: MVP post production fixes
     January - March, 2024: Product V1 development
     April, 2025: Product V1 in production
-    April - May, 2025: Product V1 post production maturity
 
 ```

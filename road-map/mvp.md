@@ -19,6 +19,7 @@ After the MVP runs well we move to the published product version 1.
 5. User Feed:
    1. Polls
    2. Legislation (through recommendation service)
+   3. Grants (current implementation)
 6.
 
 ### Policy and Legislation
