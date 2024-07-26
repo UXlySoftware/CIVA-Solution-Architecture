@@ -14,7 +14,7 @@ This road map is designed based on the following team assumptions from day 1
 timeline
     title CIVA Productization Plan
     August 2024: Data Model Fix
-               : Convert all the features into user stories
+               : Convert all the features into user stories (sample in the excel sheet)
     August - October, 2024: MVP development
     November, 2024: MVP in production
     December, 2024: MVP post production fixes
