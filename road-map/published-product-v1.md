@@ -48,6 +48,4 @@
 4. Grants data
 5. More federal data
 
-### User Feed
-
-1. Grants (through recommendation engine)
+### Reporting tools

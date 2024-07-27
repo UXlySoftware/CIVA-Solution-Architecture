@@ -51,7 +51,3 @@ After the MVP runs well we move to the published product version 1.
 1. 5-10 federal policy scraper
 2. Policy scraper scheduler
 3. Policy recommendation service with Word-embedding and WordNet models and geographical relevance.
-
-### Reporting
-
-What kind of reporting?
