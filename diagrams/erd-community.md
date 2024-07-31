@@ -97,7 +97,7 @@ erDiagram
 title: Community and Community Shapes
 ---
 erDiagram
-    Shape {
+    CommunityShape {
         ObjectId _id
         bool Locked_Community
         string ShapeId
@@ -111,6 +111,48 @@ erDiagram
         LatLng[] coordinates
     }
 
-    Community 0+--0+ Shape: has
+    Community ||--|| CommunityShape: has
 
+```
+
+
+
+
+
+-----------------------------------------------------
+```mermaid
+---
+title: Community and  Political Shapes
+---
+erDiagram
+    Political-Shape {
+        ObjectId _id
+        bool Locked_Community
+        string ShapeId
+        Location location
+        bool published
+    }
+
+    Location {
+        Properties properties
+        string type
+        LatLng[] coordinates
+
+    }
+
+     Properties {
+        string JurisTypeID
+        string JurisCat
+        string State
+        string JurisType
+        string JurisTypeName
+        string JurisLabel
+        string Country
+        string ShapeID
+
+     }
+    
+    Community  o{--o{Political-Shape : has
+    Political-Shape ||--|| Location : contains
+    Location ||--|| Properties : contains
 ```
